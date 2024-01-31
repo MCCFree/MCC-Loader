@@ -76,18 +76,18 @@ while True:
     if chon == '1':
         os.system('cls')
         print("                                              \033[1;39mLoading Minecraft Page..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/minecraft.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
     if chon == 'SS':
         os.system('cls')
         print("                                            \033[1;39mLoading Screen Share Tools Page..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/sstool.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/SSTool').text)
     if chon == 'c':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/Credits.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Credits').text)
     if chon == 'C':
         os.system('cls')
         print("                                                  \033[1;39mRendering Credits..")
-        exec(requests.get('https://262743e2-fa7a-4c75-a724-3e0aea46544c-00-3cmaqtrfhkj2o.janeway.replit.dev/Credits.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Credits').text)
     else:
         continue
