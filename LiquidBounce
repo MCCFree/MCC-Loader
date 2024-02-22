@@ -1,4 +1,4 @@
-Liq = """\033[1;32m
+liq = """\033[1;32m
 \033[1;39m                                 (Loader author : VuDungVapeV4#5887 x cryptomohammed)
 
                 ██╗░░░░░██╗░██████╗░██╗░░░██╗██╗██████╗░██████╗░░█████╗░██╗░░░██╗███╗░░██╗░█████╗░███████╗
@@ -47,10 +47,10 @@ Liq = """\033[1;32m
 \033[1;31m[\033[1;39mRB\033[1;31m] \033[1;32mRedBone 
 \033[1;31m[\033[1;39mFDP\033[1;31m] \033[1;32mFDP Client 
 \033[1;31m[\033[1;39mMB\033[1;31m] \033[1;32mMinusBounce \033[1;31m[\033[1;33mHigh risk\033[1;31m]"""
-print(Liq)
+print(liq)
 while True:
     os.system('cls')
-    print(Liq)
+    print(liq)
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
     if chon == '-':
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
