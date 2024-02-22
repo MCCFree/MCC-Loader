@@ -5,6 +5,7 @@ from datetime import datetime
 import threading
 import webbrowser, os, re, json, random
 import msvcrt
+
 try:
     from faker import Faker
     from requests import session
@@ -19,6 +20,7 @@ except:
     os.system("pip install colorama")
     os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+
 banner = f"""                                         Use stuffs in MCC Loader at your own risk.
 
                  ███╗░░░███╗░█████╗░░█████╗░██╗░██████╗  ░█████╗░██████╗░░█████╗░██╗░░██╗██╗██╗░░░██╗███████╗
@@ -60,8 +62,8 @@ nig = """
                                                          \033[1;31m[\033[1;39mC\033[1;31m]
 \033[1;39m                                                    \033[1;35m For credits.
    \033[0;31m                                            Choose your favourite game.
-   
-                                    
+
+
                                      \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft                \033[1;31m[\033[1;39mSS\033[1;31m] \033[1;32mScreen Share Tools
 
 
@@ -69,10 +71,10 @@ nig = """
 
 """
 print(nig)
-chon = Write.Input("           [×] >>  ", Colors.red_to_purple, interval=0.0025)
 while True:
     os.system('cls')
     print(nig)
+    chon = Write.Input("           [×] >>  ", Colors.red_to_purple, interval=0.0025)
     if chon == '1':
         os.system('cls')
         print("                                              \033[1;39mLoading Minecraft Page..")
