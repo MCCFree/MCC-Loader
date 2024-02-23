@@ -29,7 +29,7 @@ except FileNotFoundError:
 else:
     f.close
     subprocess.check_call(["attrib", "+H", "TOSVDOIAHWOIHSAKLFHWA.txt"])
-banner = f"""                                         Use stuffs in MCC Loader at your own risk.
+banner = f"""                                       You has accepted MCC Loader's terms of services.
 
                  ███╗░░░███╗░█████╗░░█████╗░██╗░██████╗  ░█████╗░██████╗░░█████╗░██╗░░██╗██╗██╗░░░██╗███████╗
                  ████╗░████║██╔══██╗██╔══██╗╚█║██╔════╝  ██╔══██╗██╔══██╗██╔══██╗██║░░██║██║██║░░░██║██╔════╝
