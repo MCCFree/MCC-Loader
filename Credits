@@ -25,6 +25,7 @@ Obfuscation = """
 """
 print(Obfuscation)
 while True:
+    print(Obfuscation)
     os.system('cls')
     msvcrt.getch()
     print("Leaving Credit")
