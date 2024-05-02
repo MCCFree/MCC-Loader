@@ -11,7 +11,7 @@ raven = """
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.2                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.4                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -37,6 +37,7 @@ raven = """
 \033[1;31m[\033[1;39mB4\033[1;31m] \033[1;32mRaven B4 \033[1;31m[\033[1;33mOutdated\033[1;31m] 
 \033[1;31m[\033[1;39mA\033[1;31m] \033[1;32mRaven A \033[1;31m[\033[1;33mMassive skids\033[1;31m] 
 \033[1;31m[\033[1;39mS+\033[1;31m] \033[1;32mRaven S+
+\033[1;31m[\033[1;39mBS\033[1;31m] \033[1;32mRaven BS
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     """
 print(raven)
@@ -61,9 +62,9 @@ while True:
     if chon == 'B++':
         webbrowser.open_new("https://k-ov.github.io/download/")
     if chon == 'B+++':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1152589174810103818/1157414961774088282/Sinner.jar")
+        webbrowser.open_new("https://www.mediafire.com/file/cx70t5q8hjobkqv/Raven_B%2B.jar/file")
     if chon == 'B++R':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1138115213447671932/1145748794114326569/RavenBReborn.jar")
+        webbrowser.open_new("https://www.mediafire.com/file/lv608191s2468nj/Raven_B%2B%2B_Reborn.jar/file")
     if chon == 'FB4':
         webbrowser.open_new("https://www.mediafire.com/file/nb0rnnb7mqmkkt8/FakeB4.zip/file")
     if chon == 'S1':
@@ -73,7 +74,7 @@ while True:
     if chon == 'BX':
         webbrowser.open_new("https://www.mediafire.com/file/720dih1uhqu1ri7/[1.8.9]+BetterKeystrokes+V-1.2.jar/file")
     if chon == 'N+':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1013680734122287164/1037892344319578142/1.8.9_Raven-_N.jar")
+        webbrowser.open_new("https://www.mediafire.com/file/wmxupgesrkhjra4/Raven_N%2B.jar/file")
     if chon == 'L':
         webbrowser.open_new("https://www.mediafire.com/file/78hs3x5hs6imefw/Raven+N.zip/file")
     if chon == 'B-':
@@ -81,8 +82,10 @@ while True:
     if chon == 'B4':
         webbrowser.open_new("https://anotepad.com/notes/j53d73qn")
     if chon == 'A':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1152589174810103818/1165317912068890776/b5.jar?ex=65870360&is=65748e60&hm=5dcdf41f1046800237921099b580554a4e44737fbb5f0823787b659072b42fb3&")
+        webbrowser.open_new("https://www.mediafire.com/file/wpkz0deg2fya7tb/Raven_A.jar/file")
     if chon == 'S+':
         webbrowser.open_new("https://www.mediafire.com/file/6zlm2zahvmq3sit/Raven+S+.zip/file")
+    if chon == 'BS':
+        webbrowser.open_new("https://github.com/Strangerrrs/Raven-bS/")
     else:
         continue
