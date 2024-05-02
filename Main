@@ -15,10 +15,12 @@ try:
     from random import choice, randint, shuffle
     import requests, pystyle
     from pystyle import Write, Colors
+    import subprocess
+    import ctypes
 except:
-    os.system("pip install faker")
+    os.system("pip install faker && pip install ctypes")
     os.system("pip install requests")
-    os.system("pip install colorama")
+    os.system("pip install colorama && pip install subprocess")
     os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 def windowtitle(a):
@@ -60,7 +62,7 @@ dev = "\033[1;39m[\033[1;31m×\033[1;39m]\033[1;39m"
 nig = """
                                                  \033[1;39mMCC Loader is FREE.
 
-            \033[1;32m\033[1;39mWhat's new in MCC Loader 1.0.2 ? Checkout new feature & cheats here : discord.gg/chiterl
+            \033[1;32m\033[1;39mWhat's new in MCC Loader 1.0.4 ? Checkout new feature & cheats here : discord.gg/chiterl
 
 
                           \033[1;36m______  ___________________   ______              _________            
