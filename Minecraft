@@ -1,3 +1,26 @@
+import sys
+import time
+from time import sleep, strftime
+from datetime import datetime
+import threading
+import webbrowser, os, re, json, random
+import msvcrt
+import subprocess
+import ctypes
+try:
+    from faker import Faker
+    from requests import session
+    from colorama import Fore, Style
+    import requests, random, re
+    from random import choice, randint, shuffle
+    import requests, pystyle
+    from pystyle import Write, Colors
+except:
+    os.system("pip install faker")
+    os.system("pip install requests")
+    os.system("pip install colorama")
+    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 mine = """\033[1;39m
 
                      ███╗░░░███╗██╗███╗░░██╗███████╗░█████╗░██████╗░░█████╗░███████╗████████╗
@@ -804,7 +827,7 @@ while True:
     if chon == '84.2':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1187569667779342367/1187569705507115109/SalHack.zip?ex=65975d79&is=6584e879&hm=861c57691bc720a20db3d3b2d83e4e107f35eb6768a3d5c517fdd2b56bcfa726&")
     if chon == '85.2':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1187494939085520916/1187494981397655592/bozecrack.zip?ex=659717e2&is=6584a2e2&hm=bd0c151d9c5e2d0cf41151523e8c7e4d6030e68d490a9d08babaf991fca5365c&")
+        webbrowser.open_new("https://github.com/PlutoSolutions/Boze")
     if chon == '86.2':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1187571000158732369/1187615112056557588/Flow-1.1.zip?ex=659787c3&is=658512c3&hm=1744f94d2fc0d26538bb3698677d093104633ced7f5a03f73d8e00a49eff4913&")
     if chon == '87.2':
