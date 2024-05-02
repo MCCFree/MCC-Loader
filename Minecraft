@@ -1,26 +1,3 @@
-import sys
-import time
-from time import sleep, strftime
-from datetime import datetime
-import threading
-import webbrowser, os, re, json, random
-import msvcrt
-import subprocess
-import ctypes
-try:
-    from faker import Faker
-    from requests import session
-    from colorama import Fore, Style
-    import requests, random, re
-    from random import choice, randint, shuffle
-    import requests, pystyle
-    from pystyle import Write, Colors
-except:
-    os.system("pip install faker")
-    os.system("pip install requests")
-    os.system("pip install colorama")
-    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
-from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 mine = """\033[1;39m
 
                      ███╗░░░███╗██╗███╗░░██╗███████╗░█████╗░██████╗░░█████╗░███████╗████████╗
