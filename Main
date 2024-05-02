@@ -25,7 +25,7 @@ except:
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 def windowtitle(a):
     os.system(f"title {a}")
-windowtitle("MCC Loader 1.0.2")
+windowtitle("MCC Loader 1.0.4")
 try:
     f = open('TOSVDOIAHWOIHSAKLFHWA.txt')
 except FileNotFoundError:
