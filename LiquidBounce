@@ -11,7 +11,7 @@ Liq = """
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.4                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.6                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -46,7 +46,7 @@ Liq = """
 \033[1;31m[\033[1;39mRS\033[1;31m] \033[1;32mRedStar
 \033[1;31m[\033[1;39mRB\033[1;31m] \033[1;32mRedBone 
 \033[1;31m[\033[1;39mFDP\033[1;31m] \033[1;32mFDP Client 
-\033[1;31m[\033[1;39mMB\033[1;31m] \033[1;32mMinusBounce \033[1;31m[\033[1;33mHigh risk\033[1;31m]"""
+\033[1;31m[\033[1;39mMB\033[1;31m] \033[1;32mMinusBounce"""
 print(Liq)
 while True:
     os.system('cls')
@@ -54,49 +54,53 @@ while True:
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
     if chon == '-':
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
-    if chon == 'LB':
+    elif chon == 'LB':
         webbrowser.open_new("https://liquidbounce.net/download")
-    if chon == 'LB+':
+    elif chon == 'LB+':
         webbrowser.open_new("https://github.com/liquidbounceplusreborn/LiquidbouncePlus-Reborn")
-    if chon == 'LB+R':
+    elif chon == 'LB+R':
         webbrowser.open_new("https://github.com/liquidbounceplusreborn/LiquidbouncePlus-Reborn")
-    if chon == 'LB++':
+    elif chon == 'LB++':
         webbrowser.open_new("https://github.com/TheMosKau/LiquidBouncePlusPlus")
-    if chon == 'LD':
+    elif chon == 'LD':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1129699151018459240/1145928684641980427/h534evV.jar")
-    if chon == 'LB-':
+    elif chon == 'LB-':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1129699151018459240/1151025320917467187/liquidbounceminusreborn-0.2.jar")
-    if chon == 'LVB':
+    elif chon == 'LVB':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LavaBounce/lavabounce-b11%281%29.jar")
-    if chon == 'NX':
+    elif chon == 'NX':
         webbrowser.open_new("https://github.com/Aspw-w/NightX-Client")
-    if chon == 'M':
+    elif chon == 'M':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/Moran/moranv7.1.rar")
-    if chon == 'NC':
+    elif chon == 'NC':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LavaBounce/lavabounce-b11%281%29.jar")
-    if chon == 'LW':
+    elif chon == 'LW':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LiquidWare/LiquidWare.jar")
-    if chon == 'LW2':
+    elif chon == 'LW2':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LiquidWing/LiquidWing%20718%20Cracked%20by%20%E5%94%90%E7%8E%84%E5%AE%97%E6%9D%8E%E9%9A%86%E5%9F%BA.zip")
-    if chon == 'LL':
+    elif chon == 'LL':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LiquidLose/LiquidLose.jar")
-    if chon == 'LBONK':
+    elif chon == 'LBONK':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LiquidBonk/LiquidBonk0.98_1.jar")
-    if chon == 'LA':
+    elif chon == 'LA':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/LiquidAlpha/LiquidAlpha-1.0-Cracked.jar")
-    if chon == 'SN':
+    elif chon == 'SN':
         webbrowser.open_new("https://drive.google.com/file/d/1z7fZajwUnlibhmOHBlvj8Dl8xIfo1o29/view")
-    if chon == 'DS':
+    elif chon == 'DS':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/dusksense/dusksense%20-%20C.jar")
-    if chon == 'XDB':
+    elif chon == 'XDB':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/XiaodaBounce/XiaodaBounce-New-Cracked.jar")
-    if chon == 'YDB':
+    elif chon == 'YDB':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/YingdaoSense/yingdaosense%230603cracked.jar")
-    if chon == 'Stella':
+    elif chon == 'Stella':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/StellaClient/Stella-Client-main.zip")
-    if chon == 'RS':
+    elif chon == 'RS':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/RedStar/RedStar-2.0-OpenSource.zip")
-    if chon == 'RB':
+    elif chon == 'RB':
         webbrowser.open_new("https://git.disroot.org/CatsPnewed/Forkbounce.Archive/media/branch/main/RedBone/RedBone%20Crack%200501.jar")
+    elif chon == 'FDP':
+        webbrowser.open_new("https://github.com/SkidderMC/FDPClient")
+    elif chon == 'MB':
+        webbrowser.open_new("https://minusbounce.lol/download/")
     else:
         continue
