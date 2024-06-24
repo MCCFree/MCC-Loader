@@ -11,7 +11,7 @@ raven = """
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.4                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.6                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -51,41 +51,41 @@ while True:
         os.system('cls')
         print("Leaving Raven")
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
-    if chon == 'B1':
+    elif chon == 'B1':
         webbrowser.open_new("https://www.mediafire.com/file/dz2qqfvx8rv4s6s/[1.7.10]_Keystrokes_V4.jar/file")
-    if chon == 'B2':
+    elif chon == 'B2':
         webbrowser.open_new("https://www.mediafire.com/file/frqynrmi3qh9atn/raven_b2.jar/file")
-    if chon == 'B3':
+    elif chon == 'B3':
         webbrowser.open_new("https://www.mediafire.com/file/r2x3e7nfq88v849/ravenb3.zip/file")
-    if chon == 'B+':
+    elif chon == 'B+':
         webbrowser.open_new("https://github.com/Kopamed/Raven-bPLUS/releases/download/Stable1.0.26/1.8.9.BetterKeystrokes.V-1.2.jar")
-    if chon == 'B++':
+    elif chon == 'B++':
         webbrowser.open_new("https://k-ov.github.io/download/")
-    if chon == 'B+++':
+    elif chon == 'B+++':
         webbrowser.open_new("https://www.mediafire.com/file/cx70t5q8hjobkqv/Raven_B%2B.jar/file")
-    if chon == 'B++R':
+    elif chon == 'B++R':
         webbrowser.open_new("https://www.mediafire.com/file/lv608191s2468nj/Raven_B%2B%2B_Reborn.jar/file")
-    if chon == 'FB4':
+    elif chon == 'FB4':
         webbrowser.open_new("https://www.mediafire.com/file/nb0rnnb7mqmkkt8/FakeB4.zip/file")
-    if chon == 'S1':
+    elif chon == 'S1':
         webbrowser.open_new("https://www.mediafire.com/file/ftv4k9aep23zagp/1.8.9.Raven-S.1.jar/file")
-    if chon == 'X':
+    elif chon == 'X':
         webbrowser.open_new("https://www.mediafire.com/file/0hkctqy63j5hd4r/X.zip/file")
-    if chon == 'BX':
+    elif chon == 'BX':
         webbrowser.open_new("https://www.mediafire.com/file/720dih1uhqu1ri7/[1.8.9]+BetterKeystrokes+V-1.2.jar/file")
-    if chon == 'N+':
+    elif chon == 'N+':
         webbrowser.open_new("https://www.mediafire.com/file/wmxupgesrkhjra4/Raven_N%2B.jar/file")
-    if chon == 'L':
+    elif chon == 'L':
         webbrowser.open_new("https://www.mediafire.com/file/78hs3x5hs6imefw/Raven+N.zip/file")
-    if chon == 'B-':
+    elif chon == 'B-':
         webbrowser.open_new("https://github.com/WalmartSolutions/RavenB-Latest")
-    if chon == 'B4':
+    elif chon == 'B4':
         webbrowser.open_new("https://anotepad.com/notes/j53d73qn")
-    if chon == 'A':
+    elif chon == 'A':
         webbrowser.open_new("https://www.mediafire.com/file/wpkz0deg2fya7tb/Raven_A.jar/file")
-    if chon == 'S+':
+    elif chon == 'S+':
         webbrowser.open_new("https://www.mediafire.com/file/6zlm2zahvmq3sit/Raven+S+.zip/file")
-    if chon == 'BS':
+    elif chon == 'BS':
         webbrowser.open_new("https://github.com/Strangerrrs/Raven-bS/")
     else:
         continue
