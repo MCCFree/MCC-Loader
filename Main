@@ -25,7 +25,6 @@ except:
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 import os
 import msvcrt
-
 youstupidnigger = """     
 
 
@@ -48,7 +47,29 @@ youstupidnigger = """
 
                                          \033[0;31mPress any key to close the loader.
 """
-def display_banner():
+youstupidnigger2 = """     
+
+
+
+
+
+
+
+
+
+                                 
+                                          \033[1;39m____ _  _ _ ___ _ _  _ ____
+                                          \033[1;39m|___  \/  |  |  | |\ | | __
+                                          \033[1;39m|___ _/\_ |  |  | | \| |__] . . .
+
+                                     We're \033[1;32mupdating \033[1;39mMCC Loader. Please \033[1;31mbe patient\033[1;39m.
+                             \033[1;39mYou can get the new update right now with \033[1;34mMCC Loader Premium\033[1;39m.
+
+
+
+
+"""
+def displaybanner():
     os.system('cls' if os.name == 'nt' else 'clear') 
     def windowtitle(a):
         os.system(f"title {a}")
@@ -57,9 +78,10 @@ def display_banner():
 
 def waitforkey():
     msvcrt.getch()
-
+    os.system('cls')
+    print(youstupidnigger2)
 def main():
-    display_banner()
+    displaybanner()
     waitforkey()
 
 if __name__ == "__main__":
