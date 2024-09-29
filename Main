@@ -2,11 +2,11 @@ import sys
 import time
 from time import sleep, strftime
 from datetime import datetime
-import threading, base64
+import threading
 import webbrowser, os, re, json, random
-import tempfile
 import msvcrt
-
+import subprocess
+import ctypes
 try:
     from faker import Faker
     from requests import session
@@ -14,31 +14,18 @@ try:
     import requests, random, re
     from random import choice, randint, shuffle
     import requests, pystyle
-    from os.path import isfile
+    from pystyle import Write, Colors
+    import subprocess
+    import ctypes
 except:
-    os.system("pip install faker")
+    os.system("pip install faker && pip install ctypes")
     os.system("pip install requests")
-    os.system("pip install colorama")   
+    os.system("pip install colorama && pip install subprocess")
     os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
-# MÀU
-xnhac = "\033[1;36m"
-do = "\033[1;31m"
-luc = "\033[1;32m"
-vang = "\033[1;33m"
-xduong = "\033[1;34m"
-hong = "\033[1;35m"
-trang = "\033[1;39m"
-whiteb = "\033[1;39m"
-red = "\033[0;31m"
-redb = "\033[1;31m"
-end = '\033[0m'
-# BY THAT VAPE USER
-dev = "\033[1;39m[\033[1;31m×\033[1;39m]\033[1;39m"
-
-
-def banner():
-    banner = f"""\033[1;32m\033[1;39mYou can't use MCC Loader right now.    
+import os
+import msvcrt
+youstupidnigger = """     
 
 
 
@@ -48,27 +35,54 @@ def banner():
 
 
 
-                                      _  _ ____ _ _  _ ___ ____ _ _  _ ____ ____  
-                                      |\/| |__| | |\ |  |  |__| | |\ | |    |___   (ik its maintenance)
-                                      |  | |  | | | \|  |  |  | | | \| |___ |___ .            
+                                 
+                                     \033[1;39m_  _ ____ _ _  _ ___ ____ _ _  _ ____ ____  
+                                     \033[1;39m|\/| |__| | |\ |  |  |__| | |\ | |    |___  
+                                     \033[1;39m|  | |  | | | \|  |  |  | | | \| |___ |___ 
+
+                                     We're \033[1;32mupdating \033[1;39mMCC Loader. Please \033[1;31mbe patient\033[1;39m.
+                             \033[1;39mYou can get the new update right now with \033[1;34mMCC Loader Premium\033[1;39m.
 
 
 
-                                                \033[0;31mPress any key for exit.                                                                                                                                                                          
-\033[1;39m                                             
+                                         \033[0;31mPress any key to close the loader.
 """
-    for X in banner:
-        sys.stdout.write(X)
-        sys.stdout.flush()
-        sleep(0.000001)
+youstupidnigger2 = """     
 
 
-# =======================[RUN]=======================#
-while True:
-    os.system('cls')
-    banner()
-    print("                                ")
-    print("                                ")
-    print("")
+
+
+
+
+
+
+
+                                 
+                                          \033[1;39m____ _  _ _ ___ _ _  _ ____
+                                          \033[1;39m|___  \/  |  |  | |\ | | __
+                                          \033[1;39m|___ _/\_ |  |  | | \| |__] . . .
+
+                                     We're \033[1;32mupdating \033[1;39mMCC Loader. Please \033[1;31mbe patient\033[1;39m.
+                             \033[1;39mYou can get the new update right now with \033[1;34mMCC Loader Premium\033[1;39m.
+
+
+
+
+"""
+def displaybanner():
+    os.system('cls' if os.name == 'nt' else 'clear') 
+    def windowtitle(a):
+        os.system(f"title {a}")
+    windowtitle("MCC Loader is currently under maintenance. ^| discord.gg/chiterl")
+    print(youstupidnigger)
+
+def waitforkey():
     msvcrt.getch()
-    sys.exit()
+    os.system('cls')
+    print(youstupidnigger2)
+def main():
+    displaybanner()
+    waitforkey()
+
+if __name__ == "__main__":
+    main()
