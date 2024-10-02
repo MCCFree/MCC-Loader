@@ -10,7 +10,7 @@ mine = """\033[1;39m
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.6                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.8                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -113,6 +113,8 @@ mine = """\033[1;39m
 \033[1;31m[\033[1;39m91.1\033[1;31m] \033[1;32mRipterms \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m92.1\033[1;31m] \033[1;32mBlinky \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m93.1\033[1;31m] \033[1;32mWannaCry \033[1;31m[\033[1;33mV2\033[1;31m]
+\033[1;31m[\033[1;39m94.1\033[1;31m] \033[1;32mRaid0 \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m95.1\033[1;31m] \033[1;32mRipterms \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║    \033[1;39m   Blatant     \033[1;32m║
@@ -228,6 +230,8 @@ mine = """\033[1;39m
 \033[1;31m[\033[1;39m109.2\033[1;31m] \033[1;32mOpal \033[1;31m[\033[1;33m1.9+\033[1;31m]
 \033[1;31m[\033[1;39m110.2\033[1;31m] \033[1;32mSlack Client \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m111.2\033[1;31m] \033[1;32mAcrimony Client \033[1;31m[\033[1;33m1.05\033[1;31m]
+\033[1;31m[\033[1;39m112.2\033[1;31m] \033[1;32mPolarWare \033[1;31m[\033[1;33mHaven't check yet\033[1;31m]
+\033[1;31m[\033[1;39m113.2\033[1;31m] \033[1;32mDoomsDay \033[1;31m[\033[1;33mLatest\033[1;31m]
 \033[1;97m= = = = = =  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐          
                                                 \033[1;32m║  \033[1;39m     Clicker     \033[1;32m║          
@@ -298,7 +302,40 @@ mine = """\033[1;39m
 \033[1;31m[\033[1;39m64.3\033[1;31m] \033[1;32mBrazilian \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m65.3\033[1;31m] \033[1;32mBhop \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m66.3\033[1;31m] \033[1;32mFlare \033[1;31m[\033[1;33mUnknown version\033[1;31m]
-\033[1;31m[\033[1;39m67.3\033[1;31m] \033[1;32mSylph \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m67.3\033[1;31m] \033[1;32mCloud \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m68.3\033[1;31m] \033[1;32mSigma \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m69.3\033[1;31m] \033[1;32mComet \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m70.3\033[1;31m] \033[1;32mGhetto \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m71.3\033[1;31m] \033[1;32mBrazilian \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m72.3\033[1;31m] \033[1;32mBhop \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m73.3\033[1;31m] \033[1;32mBroxa \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m74.3\033[1;31m] \033[1;32mSylph \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m75.3\033[1;31m] \033[1;32mLustful \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m76.3\033[1;31m] \033[1;32mMedusa.ac \033[1;31m[\033[1;33mUnknown versions\033[1;31m]
+\033[1;31m[\033[1;39m77.3\033[1;31m] \033[1;32mV0 \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m78.3\033[1;31m] \033[1;32mVolatile \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m79.3\033[1;31m] \033[1;32mWeyn \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m80.3\033[1;31m] \033[1;32mWok \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m81.3\033[1;31m] \033[1;32mN0le Demo Private \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m82.3\033[1;31m] \033[1;32mNemesis \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m83.3\033[1;31m] \033[1;32mLuka \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m84.3\033[1;31m] \033[1;32mKnockoff \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m85.3\033[1;31m] \033[1;32mLizard \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m86.3\033[1;31m] \033[1;32mHyper \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m87.3\033[1;31m] \033[1;32mEvery0xgay \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m88.3\033[1;31m] \033[1;32mGlassware \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m89.3\033[1;31m] \033[1;32mGonral \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m90.3\033[1;31m] \033[1;32mFRT \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m91.3\033[1;31m] \033[1;32mGamesense \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m92.3\033[1;31m] \033[1;32mBlueberry \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m93.3\033[1;31m] \033[1;32mBPAZ \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m94.3\033[1;31m] \033[1;32mBuxh \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m95.3\033[1;31m] \033[1;32mBok \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m96.3\033[1;31m] \033[1;32mBroxa \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m97.3\033[1;31m] \033[1;32mRehub \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m98.3\033[1;31m] \033[1;32mRipz \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m99.3\033[1;31m] \033[1;32mSaluz \033[1;31m[\033[1;33mB7\033[1;31m]
+\033[1;31m[\033[1;39m100.3\033[1;31m] \033[1;32mReak Recorder \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐          
                                                 \033[1;32m║  \033[1;39m    Plugins      \033[1;32m║          
@@ -450,6 +487,10 @@ mine = """\033[1;39m
 \033[1;31m[\033[1;39m89.5\033[1;31m] \033[1;32mElysium Source \033[1;31m[\033[1;33mb1\033[1;31m]
 \033[1;31m[\033[1;39m90.5\033[1;31m] \033[1;32mJello Source \033[1;31m[\033[1;33m0.1\033[1;31m]
 \033[1;31m[\033[1;39m91.5\033[1;31m] \033[1;32mFlux Source \033[1;31m[\033[1;33mB39.11\033[1;31m]
+\033[1;31m[\033[1;39m92.5\033[1;31m] \033[1;32mRaid0 Source \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m93.5\033[1;31m] \033[1;32mCloud Client Source \033[1;31m[\033[1;33m1.1\033[1;31m]
+\033[1;31m[\033[1;39m94.5\033[1;31m] \033[1;32mDeluge Client Source \033[1;31m[\033[1;33m0.23\033[1;31m]
+\033[1;31m[\033[1;39m95.5\033[1;31m] \033[1;32mIcarus Client Source \033[1;31m[\033[1;33mB15\033[1;31m]
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║ \033[1;39m     Anarchy      \033[1;32m║
@@ -611,7 +652,7 @@ while True:
     elif chon == '64.1':
         webbrowser.open_new("https://github.com/PlutoSolutions/Hash")
     elif chon == '65.1':
-        webbrowser.open_new("https://www.mediafire.com/file/u0csu0zuvxfyzkz/Entropy.zip/file")
+        webbrowser.open_new("https://mega.nz/file/iNZFHZKC#vC75RbcuG9VfXDq4b4NG6uW8GTjEyKuemDshklCwJK8")
     elif chon == '66.1':
         webbrowser.open_new("https://www.mediafire.com/file/10e8ionjci2j08x/Huume.zip/file")
     elif chon == '67.1':
@@ -668,6 +709,10 @@ while True:
         webbrowser.open_new("https://www.mediafire.com/file/d8wm22jyeuyilrs/PINKY.zip/file")
     elif chon == '93.1':
         webbrowser.open_new("https://www.mediafire.com/file/fuurqxbq4xucrs6/WNAO.zip/file")
+    elif chon == '94.1':
+        webbrowser.open_new("https://www.mediafire.com/file/ugostl54ku518ew/Raid0.zip/file")
+    elif chon == '95.1':
+        webbrowser.open_new("https://www.mediafire.com/file/v7qncdv73rcprvs/Ripterms.rar/file")
     elif chon == '1.2':
         exec(requests.get("https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Vestige").text)
     elif chon == '2.2':
@@ -885,11 +930,15 @@ while True:
     elif chon == '108.2':
         webbrowser.open_new("https://workupload.com/file/szFZJUmjGmL")
     elif chon == '109.2':
-        webbrowser.open_new("https://www.mediafire.com/file/il9rmhrpf0qnj33/Opal_062024_free.zip/file")
+        webbrowser.open_new("https://mega.nz/file/VQJGWIDa#ZO7Fr-k-98XhYeAcTNJid7QlsQE5hYiDSfAxFyHqTJE")
     elif chon == '110.2':
         webbrowser.open_new("https://workupload.com/file/MZVYaXYKYy2")
     elif chon == '111.2':
         webbrowser.open_new("https://workupload.com/file/Ypb7KUM6JYN")
+    elif chon == '112.2':
+        webbrowser.open_new("https://workupload.com/file/zTxjLZ3gHwa")
+    elif chon == '113.2':
+        webbrowser.open_new("https://doomsdayclient.com/")
     elif chon == '1.3':
         webbrowser.open_new("https://www.mediafire.com/file/uixqtdbh7laysge/1337_Clicker.zip/file")
     elif chon == '2.3':
@@ -1025,6 +1074,72 @@ while True:
         webbrowser.open_new("https://www.mediafire.com/file/6g4d9l2gx2lqbo2/Flare.zip/file")
     elif chon == '67.3':
         webbrowser.open_new("https://www.mediafire.com/file/mqp654jmflea89x/sylph.zip/file")
+    elif chon == '68.3':
+        webbrowser.open_new("https://www.mediafire.com/file/6uog8h8i9amhwom/Sigma_Clicker.rar/file")
+    elif chon == '69.3':
+        webbrowser.open_new("https://www.mediafire.com/file/wvl51bs1ellj0hb/Comet_Recorder.rar/file")
+    elif chon == '70.3':
+        webbrowser.open_new("https://www.mediafire.com/file/7gon524v99bygac/Ghetto_Clicker.rar/file")
+    elif chon == '71.3':
+        webbrowser.open_new("https://www.mediafire.com/file/jnlfvujc3utkt8c/Brazilian.zip/file")
+    elif chon == '72.3':
+        webbrowser.open_new("https://www.mediafire.com/file/bjpyxee8sjgwgy3/Bhop.zip/file")
+    elif chon == '73.5':
+        webbrowser.open_new("https://www.mediafire.com/file/qvci7hzpbtk6sr1/Broxa.zip/file")
+    elif chon == '74.5':
+        webbrowser.open_new("https://www.mediafire.com/file/fy4mzoefhp7p2s1/Cloud.zip/file")
+    elif chon == '75.5':
+        webbrowser.open_new("https://www.mediafire.com/file/n5lzc1rlndq32ab/Lustful_Clicker.zip/file")
+    elif chon == '76.3':
+        webbrowser.open_new("https://www.mediafire.com/file/4w2g8b7lfwxqmna/Medusa.rar/file")
+    elif chon == '77.3':
+        webbrowser.open_new("https://www.mediafire.com/file/1habwt362tfxme0/v0_Clicker.zip/file")
+    elif chon == '78.3':
+        webbrowser.open_new("https://lootdest.info/s?ezZW")
+    elif chon == '79.3':
+        webbrowser.open_new("https://www.mediafire.com/file/tjky89zjkhi6zsn/Weyn_Clicker.zip/file")
+    elif chon == '80.3':
+        webbrowser.open_new("https://www.mediafire.com/file/hjcpmp88sgv1dhi/Wok.zip/file")
+    elif chon == '81.3':
+        webbrowser.open_new("https://www.mediafire.com/file/bsnmrsbr6bcnmjh/N0le_Private_Clicker.zip/file")
+    elif chon == '82.3':
+        webbrowser.open_new("https://www.mediafire.com/file/j3uh2mxtoftg106/Nemesis.zip/file")
+    elif chon == '83.3':
+        webbrowser.open_new("https://www.mediafire.com/file/ufge7h3007baijo/Luka.zip/file")
+    elif chon == '84.3':
+        webbrowser.open_new("https://www.mediafire.com/file/bwgea8rmxjyornk/Knockoff_%2528Deez%2529.zip/file")
+    elif chon == '85.3':
+        webbrowser.open_new("https://www.mediafire.com/file/r9umvoxwhymcmll/Lizard.zip/file")
+    elif chon == '86.3':
+        webbrowser.open_new("https://www.mediafire.com/file/4wis72h3g902xyy/Hyper.zip/file")
+    elif chon == '87.3':
+        webbrowser.open_new("https://www.mediafire.com/file/posxz0wq9ixqn6g/Every0xgay.zip/file")
+    elif chon == '88.3':
+        webbrowser.open_new("https://www.mediafire.com/file/cmsd87o50n1m3vo/Glassware.zip/file")
+    elif chon == '89.3':
+        webbrowser.open_new("https://www.mediafire.com/file/m7gr9imoeou3jbf/Gonral.zip/file")
+    elif chon == '90.3':
+        webbrowser.open_new("https://www.mediafire.com/file/iqlk8lthe181fzh/FRT_Clicker.rar/file")
+    elif chon == '91.3':
+        webbrowser.open_new("https://www.mediafire.com/file/l0k8yra1le4heme/Gamesense.zip/file")
+    elif chon == '92.3':
+        webbrowser.open_new("https://www.mediafire.com/file/ti09indea1x2xo5/Blueberry.zip/file")
+    elif chon == '93.3':
+        webbrowser.open_new("https://www.mediafire.com/file/ri4q1fnloewwzpk/BPAZ.rar/file")
+    elif chon == '94.3':
+        webbrowser.open_new("https://www.mediafire.com/file/iv41lf63a63uvi1/Buxh.zip/file")
+    elif chon == '95.3':
+        webbrowser.open_new("https://www.mediafire.com/file/ppfvtv1599lnyqy/Bok_Clicker.zip/file")
+    elif chon == '96.3':
+        webbrowser.open_new("https://www.mediafire.com/file/qvci7hzpbtk6sr1/Broxa.zip/file")
+    elif chon == '97.3':
+        webbrowser.open_new("https://www.mediafire.com/file/e090i7vmim357yl/Rehub.zip/file")
+    elif chon == '98.3':
+        webbrowser.open_new("https://www.mediafire.com/file/l6p7qzqn425tzlr/Ripz.zip/file")
+    elif chon == '99.3':
+        webbrowser.open_new("https://www.mediafire.com/file/jw0ivpukgp5hj0i/Saluz.zip/file")
+    elif chon == '100.3':
+        webbrowser.open_new("https://www.mediafire.com/file/kpi13z4d74hvv9o/Reak.zip/file")
     elif chon == '1.4':
         webbrowser.open_new("https://www.mediafire.com/file/93ornlwzb5ygi9d/AAC-5.2.0.jar/file")
     elif chon == '2.4':
@@ -1277,45 +1392,43 @@ while True:
     elif chon == '76.5':
         webbrowser.open_new("https://www.mediafire.com/file/jqyeihz98ll1lbw/Clowdy+Lite.zip/file")
     elif chon == '77.5':
-        webbrowser.open_new("https://www.mediafire.com/file/r7avg3eu84o3afi/Cloud+1.1.zip/file")
-    elif chon == '78.5':
         webbrowser.open_new("https://www.mediafire.com/file/bcpakde41ynj5h8/Eternal+3.0.0.zip/file")
+    elif chon == '78.5':
+        webbrowser.open_new("https://www.mediafire.com/file/gvtfiv7gvwk6tyc/GameSense+v2.1.0.zip/file")
     elif chon == '79.5':
         webbrowser.open_new("https://www.mediafire.com/file/ax29r325ijiuuj2/GameSense+v2.3.0.zip/file")
     elif chon == '80.5':
-        webbrowser.open_new("https://www.mediafire.com/file/gvtfiv7gvwk6tyc/GameSense+v2.1.0.zip/file")
-    elif chon == '81.5':
         webbrowser.open_new("https://www.mediafire.com/file/g0kt43ig3y2vxfc/Exodus+5.4.zip/file")
-    elif chon == '82.5':
+    elif chon == '81.5':
         webbrowser.open_new("https://www.mediafire.com/file/zn6bxt5tab95vgm/Horizon+6.0.zip/file")
-    elif chon == '83.5':
-        webbrowser.open_new("https://www.mediafire.com/file/12f3zgonyjx8swe/Deluge+0.23.zip/file")
-    elif chon == '84.5':
-        webbrowser.open_new("https://www.mediafire.com/file/um0ku2ykzq5xwqx/Icarus+B15.zip/file")
-    elif chon == '85.5':
+    elif chon == '82.5':
         webbrowser.open_new("https://www.mediafire.com/file/de1twzs1by1etr4/Hush+B4.zip/file")
-    elif chon == '86.5':
+    elif chon == '83.5':
         webbrowser.open_new("https://www.mediafire.com/file/p21lgqmx23j1fbo/GetBypass+b1.0.zip/file")
-    elif chon == '87.5':
+    elif chon == '84.5':
         webbrowser.open_new("https://www.mediafire.com/file/q9nh7ygxcmdj6vp/Euphoria+B7.zip/file")
-    elif chon == '88.5':
-        webbrowser.open_new("https://www.mediafire.com/file/q9nh7ygxcmdj6vp/Euphoria+B7.zip/file")
-    elif chon == '89.5':
+    elif chon == '85.5':
         webbrowser.open_new("https://www.mediafire.com/file/g0thl5fydsj9en1/DietrichPaul's+ClientBase.zip/file")
-    elif chon == '90.5':
+    elif chon == '86.5':
         webbrowser.open_new("https://www.mediafire.com/file/m0nskl3vg6algd6/Dortware+1.5.0.zip/file")
-    elif chon == '91.5':
+    elif chon == '87.5':
         webbrowser.open_new("https://www.mediafire.com/file/lelikw6cfvlg6fi/GetBypass+a1.0.zip/file")
-    elif chon == '92.5':
+    elif chon == '88.5':
         webbrowser.open_new("https://www.mediafire.com/file/yrma17p85kg3881/Juul+1.0.zip/file")
-    elif chon == '93.5':
-        webbrowser.open_new("https://www.mediafire.com/file/oeyvtfq4q25wmeh/CrossSine+B34.zip/file")
-    elif chon == '94.5':
+    elif chon == '89.5':
         webbrowser.open_new("https://www.mediafire.com/file/qjngasjlmsr3wmz/Elysium+b1.zip/file")
-    elif chon == '95.5':
+    elif chon == '90.5':
         webbrowser.open_new("https://www.mediafire.com/file/fqfwklesnevyzkt/Jello+0.1.zip/file")
-    elif chon == '96.5':
+    elif chon == '91.5':
         webbrowser.open_new("https://www.mediafire.com/file/99hn6xkz4m60inq/Flux+B39.11.zip/file")
+    elif chon == '92.5':
+        webbrowser.open_new("https://www.mediafire.com/file/ywj1u8kgc1junoo/raid0-src.zip/file")
+    elif chon == '93.5':
+        webbrowser.open_new("https://www.mediafire.com/file/r7avg3eu84o3afi/Cloud+1.1.zip/file")
+    elif chon == '94.5':
+        webbrowser.open_new("https://www.mediafire.com/file/12f3zgonyjx8swe/Deluge+0.23.zip/file")
+    elif chon == '95.5':
+        webbrowser.open_new("https://www.mediafire.com/file/um0ku2ykzq5xwqx/Icarus+B15.zip/file")
     elif chon == '1.6':
         webbrowser.open_new("https://mimhax.netlify.app/Files/seppuku.jar")
     elif chon == '2.6':
