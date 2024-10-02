@@ -11,7 +11,7 @@ vape = """
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.6                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.8                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -22,11 +22,18 @@ vape = """
                                             \033[1;39m┌────────────────────┐         
                                             \033[1;32m║    \033[1;39m    Vape        \033[1;32m║          
                                             \033[1;39m└────────────────────┘          
-\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page 
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page
+\033[1;31m[\033[1;39m4.12\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.12\033[1;31m]  
 \033[1;31m[\033[1;39m4.10\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.10\033[1;31m] \033[1;31m[\033[1;33mUse at your own risk\033[1;31m]
 \033[1;31m[\033[1;39m4.06\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.06\033[1;31m] 
-\033[1;31m[\033[1;39m4.04\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.04 + Build in Vape Lite\033[1;31m] 
-\033[1;31m[\033[1;39m3.25\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.25\033[1;31m] 
+\033[1;31m[\033[1;39m4.04\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.04 + Built-in Vape Lite\033[1;31m] 
+\033[1;31m[\033[1;39mL\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mLite\033[1;31m]
+\033[1;31m[\033[1;39m3.29\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.29\033[1;31m] 
+\033[1;31m[\033[1;39m3.28\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.28\033[1;31m]
+\033[1;31m[\033[1;39m3.25\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.25\033[1;31m]  
+\033[1;31m[\033[1;39m3.25\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv3.25\033[1;31m]
+\033[1;31m[\033[1;39m2.47\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv2.47\033[1;31m]
+\033[1;31m[\033[1;39m0.28\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv0.28\033[1;31m]   
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 """
 print(vape)
@@ -40,13 +47,25 @@ while True:
       os.system('cls')
       print("Leaving Vape")
       exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
-  elif chon == '3.25':
-      webbrowser.open_new("https://www.mediafire.com/file/8coudk5wgq9ssla/Vape_v3.25.zip/file")
-  elif chon == '4.04':
-      webbrowser.open_new("https://anotepad.com/notes/4qyx3tmb")
-  elif chon == '4.06':
-      webbrowser.open_new("https://www.mediafire.com/file/4c02w3mpw89vjwv/Vape+4.06.zip/file")
+  elif chon == '4.12':
+        webbrowser.open_new("https://www.mediafire.com/file/23c9lbz94zq2xxf/Vape+v4.12+Cracked+by+shitass.zip/file")
   elif chon == '4.10':
       webbrowser.open_new("https://pixeldrain.com/u/zELPqtnN")
+  elif chon == '4.06':
+      webbrowser.open_new("https://www.mediafire.com/file/4c02w3mpw89vjwv/Vape+4.06.zip/file")
+  elif chon == '4.04':
+      webbrowser.open_new("https://anotepad.com/notes/4qyx3tmb")
+  elif chon == '3.29':
+        webbrowser.open_new("https://www.mediafire.com/file/27z6nurgw1u457n/3.29+Crack.zip/file")
+  elif chon == '3.28':
+        webbrowser.open_new("https://www.mediafire.com/file/w5x40c12bm9klxv/Vape+v3.28+Mod+Crack-Blatant+mode+Fix.zip/file")
+  elif chon == '3.25':
+      webbrowser.open_new("https://www.mediafire.com/file/8coudk5wgq9ssla/Vape_v3.25.zip/file")
+  elif chon == '2.47':
+        webbrowser.open_new("https://www.mediafire.com/file/m7ngbnwb8apjj1h/2.47+Crack(No+backdoor)(1.7.10+Forge+mod).zip/file")
+  elif chon == '0.28':
+        webbrowser.open_new("https://www.mediafire.com/file/l8psf4iege1y6q0/0.28+Crack.zip/file")
+  elif chon == 'L':
+        webbrowser.open_new("https://www.mediafire.com/file/tt5rhy70ifyfljd/lite+Crack.zip/file")
   else:
       continue
