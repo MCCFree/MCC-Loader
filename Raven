@@ -11,7 +11,7 @@ raven = """
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.6                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.8                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/MCCFree/MCC-Loader/new/main         \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -22,6 +22,8 @@ raven = """
                                                 \033[1;32m║    \033[1;39m   Raven       \033[1;32m║          
                                                 \033[1;39m└───────────────────┘          
 \033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page 
+\033[1;31m[\033[1;39mB1\033[1;31m] \033[1;32mRaven B1
+\033[1;31m[\033[1;39mB2\033[1;31m] \033[1;32mRaven B2
 \033[1;31m[\033[1;39mB3\033[1;31m] \033[1;32mRaven B3 
 \033[1;31m[\033[1;39mB+\033[1;31m] \033[1;32mRaven B+ 
 \033[1;31m[\033[1;39mB++\033[1;31m] \033[1;32mRaven B++ 
@@ -38,6 +40,15 @@ raven = """
 \033[1;31m[\033[1;39mA\033[1;31m] \033[1;32mRaven A \033[1;31m[\033[1;33mMassive skids\033[1;31m] 
 \033[1;31m[\033[1;39mS+\033[1;31m] \033[1;32mRaven S+
 \033[1;31m[\033[1;39mBS\033[1;31m] \033[1;32mRaven BS
+\033[1;31m[\033[1;39mXD\033[1;31m] \033[1;32mRaven XD
+\033[1;31m[\033[1;39mHR\033[1;31m] \033[1;32mHaru
+\033[1;31m[\033[1;39mBF\033[1;31m] \033[1;32mRaven BFun
+\033[1;31m[\033[1;39mGV\033[1;31m] \033[1;32mGravity
+\033[1;31m[\033[1;39mNVX\033[1;31m] \033[1;32mNeverX \033[1;31m[\033[1;33mShittiest raven\033[1;31m]
+\033[1;31m[\033[1;39mRW\033[1;31m] \033[1;32mRavenWeave
+\033[1;31m[\033[1;39mRWL\033[1;31m] \033[1;32mRavenWeave Lite
+\033[1;31m[\033[1;39mBZ\033[1;31m] \033[1;32mRaven BZ
+\033[1;31m[\033[1;39mCR\033[1;31m] \033[1;32mCyrus
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     """
 print(raven)
@@ -52,9 +63,9 @@ while True:
         print("Leaving Raven")
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Minecraft').text)
     elif chon == 'B1':
-        webbrowser.open_new("https://www.mediafire.com/file/dz2qqfvx8rv4s6s/[1.7.10]_Keystrokes_V4.jar/file")
+        webbrowser.open_new("https://www.mediafire.com/file/8wbt1e7r7gz4wrq/Raven_B1.jar/file")
     elif chon == 'B2':
-        webbrowser.open_new("https://www.mediafire.com/file/frqynrmi3qh9atn/raven_b2.jar/file")
+        webbrowser.open_new("https://www.mediafire.com/file/4vt13f043evgl7n/Raven_B2.jar/file")
     elif chon == 'B3':
         webbrowser.open_new("https://www.mediafire.com/file/r2x3e7nfq88v849/ravenb3.zip/file")
     elif chon == 'B+':
@@ -78,7 +89,7 @@ while True:
     elif chon == 'L':
         webbrowser.open_new("https://www.mediafire.com/file/78hs3x5hs6imefw/Raven+N.zip/file")
     elif chon == 'B-':
-        webbrowser.open_new("https://github.com/WalmartSolutions/RavenB-Latest")
+        webbrowser.open_new("https://www.mediafire.com/file/j53hm9kovrmme2c/Raven_B-.jar/file")
     elif chon == 'B4':
         webbrowser.open_new("https://anotepad.com/notes/j53d73qn")
     elif chon == 'A':
@@ -87,5 +98,23 @@ while True:
         webbrowser.open_new("https://www.mediafire.com/file/6zlm2zahvmq3sit/Raven+S+.zip/file")
     elif chon == 'BS':
         webbrowser.open_new("https://github.com/Strangerrrs/Raven-bS/")
+    elif chon == 'CR':
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1184510998229553163/1290964797667409941/ravenn.jar?ex=66fe6028&is=66fd0ea8&hm=0024c448d06b2fefc61da82f5759a8a58ba75f8ba21087d79594488fe9b4aef6&")
+    elif chon == 'XD':
+        webbrowser.open_new("https://github.com/xia-mc/Raven-XD")
+    elif chon == 'HR':
+        webbrowser.open_new("https://www.mediafire.com/file/ef6c2igfjjslodt/Haru.rar/file")
+    elif chon == 'BF':
+        webbrowser.open_new("https://www.mediafire.com/file/sgrqdqzvo8fwo8a/Raven_BFun.jar/file")
+    elif chon == 'GV':
+        webbrowser.open_new("https://www.mediafire.com/file/6oti8mqui58s56m/Gravity_Alpha.jar/file")
+    elif chon == 'NVX':
+        webbrowser.open_new("https://www.mediafire.com/file/7imop5f3nqqneqf/NeverX.jar/file")
+    elif chon == 'RW':
+        webbrowser.open_new("https://www.mediafire.com/file/v8qg704xefzky2w/RavenWeave.jar/file")
+    elif chon == 'RWL':
+        webbrowser.open_new("https://www.mediafire.com/file/9e7x50yrhot6tz6/RavenWeaveLite.jar/file")
+    elif chon == 'BZ':
+        webbrowser.open_new("https://www.mediafire.com/file/wpkz0deg2fya7tb/Raven_BZ.jar/file")
     else:
         continue
