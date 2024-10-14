@@ -99,7 +99,7 @@ while True:
     elif chon == 'BS':
         webbrowser.open_new("https://github.com/Strangerrrs/Raven-bS/")
     elif chon == 'CR':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1184510998229553163/1290964797667409941/ravenn.jar?ex=66fe6028&is=66fd0ea8&hm=0024c448d06b2fefc61da82f5759a8a58ba75f8ba21087d79594488fe9b4aef6&")
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1184510998229553163/129096479766740994")
     elif chon == 'XD':
         webbrowser.open_new("https://github.com/xia-mc/Raven-XD")
     elif chon == 'HR':
