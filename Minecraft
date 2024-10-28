@@ -644,7 +644,7 @@ while True:
     elif chon == '60.1':
         webbrowser.open_new("https://www.mediafire.com/file/suyzmw8ryquut2l/Amari-Beta-Installer.zip/file")
     elif chon == '61.1':
-        webbrowser.open_new("https://github.com/PlutoSolutions/Slinky/releases/download/DOWNLOAD/slinkycrack.zip")
+        webbrowser.open_new("https://crystalpvp.ru/slinky/slinkycrack.zip")
     elif chon == '62.1':
         webbrowser.open_new("https://e.pcloud.link/publink/show?code=XZQqrWZqYLqkNe3eLQsnxzSYBracpqqznmy#ret    url=https%3A//e.pcloud.link/publink/show%3Fcode%3DXZQqrWZqYLqkNe3eLQsnxzSYBracpqqznmy&page=login")
     elif chon == '63.1':
