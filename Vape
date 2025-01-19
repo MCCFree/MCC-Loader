@@ -1,3 +1,28 @@
+import sys
+import time
+from time import sleep, strftime
+from datetime import datetime
+import threading
+import webbrowser, os, re, json, random
+import msvcrt
+import subprocess
+import ctypes
+try:
+    from faker import Faker
+    from requests import session
+    from colorama import Fore, Style
+    import requests, random, re
+    from random import choice, randint, shuffle
+    import requests, pystyle
+    from pystyle import Write, Colors
+    import subprocess
+    import ctypes
+except:
+    os.system("pip install faker && pip install ctypes")
+    os.system("pip install requests")
+    os.system("pip install colorama && pip install subprocess")
+    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 vape = """
 \033[1;39m
 
@@ -53,7 +78,7 @@ while True:
     elif chon == '4.12':
         webbrowser.open_new("https://pixeldrain.com/u/NDUssvGf")
     elif chon == '4.10':
-        webbrowser.open_new("https://www.mediafire.com/file/twddzhv55qw6uzc/Vape+Launcher.zip/fi
+        webbrowser.open_new("https://www.mediafire.com/file/twddzhv55qw6uzc/Vape+Launcher.zip/file")
     elif chon == '4.06':
         webbrowser.open_new("https://www.mediafire.com/file/4c02w3mpw89vjwv/Vape+4.06.zip/file")
     elif chon == '4.04':
